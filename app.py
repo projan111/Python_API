@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return {'message': 'Welcome to my API'}
+    return {'message': 'Welcome to my first Py API'}
 
 @app.route('/data', methods=['GET'])
 def get_data():
