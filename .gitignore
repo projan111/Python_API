@@ -1,0 +1,22 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Virtual environment
+myenv/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Node.js (if applicable)
+node_modules/
